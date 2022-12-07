@@ -1,14 +1,16 @@
 
-.navbar {
-    background-color: rgba(0, 0, 0, .8);
-    position: absolute;
-    z-index: 100;
+.top {
+    background-color: rgba(78, 72, 72, 0.8);
+    position:absolute!important;
+    left: 0;
+    right: 0;
+    z-index: 1000!important;
 }
 .nav-item  a:link, .nav-item a:visited {
     color: white;
 }
 .nav-item a:hover {
-    color:#0275d8
+    color:#b8d83c
 }
 .dropdown-item {
     border-radius: 0;
@@ -20,7 +22,7 @@
 .dropdown-menu-dark {
     --bs-dropdown-bg: #111 !important;
     border-radius: 0!important;
-    border-top: 3px solid #0275d8 !important    ;
+    border-top: 3px solid #b8d83c !important    ;
 }
 .segm-item {
     padding-right: 40px;
@@ -46,7 +48,7 @@
 .form-control {
     border-radius: 20rem!important; 
     border: 0;
-    background-color: #111!important;
+    background-color: rgba(48, 47, 47, 0.938)!important;
     color: #fff!important;
 }
 .search-menu {
@@ -64,5 +66,31 @@
 }
 i {
     font-size: 20px;
-    color: #0275d8;
+    color: #b8d83c;
+}
+.btn:hover {
+    background-color: #b8d83c!important;
+}
+.crs-img{
+    height:637.77px!important;
+}
+.cap-1 {
+    padding-bottom: 300px!important;
+}
+.cap-6 {
+    padding-bottom: 180px!important;
+}
+.cap-3 {
+    padding-right: 45%!important;
+    padding-bottom: 150px!important;
+}
+.cap-4 {
+    padding-bottom:15%!important;
+    padding-left: 30%!important;
+}
+.main-body {
+    overflow-x: hidden;
+}
+.col-img {
+    max-width: 90%;
 }
