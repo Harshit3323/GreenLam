@@ -1,5 +1,6 @@
+
 .navbar {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, .8);
     position: absolute;
     z-index: 100;
 }
@@ -16,6 +17,11 @@
 /* .stacked-list  li, .stacked-list  li .dropdown-item, stacked-item {
     display: inline;
 } */
+.dropdown-menu-dark {
+    --bs-dropdown-bg: #111 !important;
+    border-radius: 0!important;
+    border-top: 3px solid #0275d8 !important    ;
+}
 .segm-item {
     padding-right: 40px;
     padding-left: 40px;
@@ -25,7 +31,7 @@
     padding-right: 20px;
 }
 .res-img {
-    width: 12.5rem;
+    width: 15rem;
 }
 .dropdown-toggle::after {
     content: none;
@@ -39,6 +45,14 @@
 }
 .form-control {
     border-radius: 20rem!important; 
+    border: 0;
+    background-color: #111!important;
+    color: #fff!important;
+}
+.search-menu {
+    padding: 0!important;
+    margin: 0;
+    border-radius: 20rem!important;
 }
 .shp-bag {
     position: relative;
